@@ -1,0 +1,21 @@
+{
+  "name": "hill_chan_v1.0 double_booking_block",
+  "version": "1.0.0",
+  "icons": {
+    "128": "hill_chan_128.png",
+    "48": "hill_chan_48.png",
+    "16": "hill_chan_16.png"
+  },
+  "manifest_version": 2,
+  "description": "a extention for booking",
+
+  "permissions": [
+    "tabs", "https://www.airbnb.jp/manage-your-space/*"
+  ],
+
+  "browser_action": {
+    "default_title": "Hillちゃん起動!",
+    "default_icon": "hill_chan_16.png",
+    "default_popup": "popup.html"
+  }
+}
